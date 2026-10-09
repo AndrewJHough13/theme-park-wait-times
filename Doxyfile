@@ -1,0 +1,8 @@
+# Minimal Doxygen config. Generate docs with:  doxygen Doxyfile   (output in docs/html)
+PROJECT_NAME           = "Universal Orlando Wait Time Tracker"
+INPUT                  = collector.py dashboard.py README.md
+USE_MDFILE_AS_MAINPAGE = README.md
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTRACT_ALL            = YES
+OUTPUT_DIRECTORY       = docs
+GENERATE_LATEX         = NO
